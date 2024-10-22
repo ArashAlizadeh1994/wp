@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <Buttom />
+      <div>home changes</div>
     </>
   )
 }
