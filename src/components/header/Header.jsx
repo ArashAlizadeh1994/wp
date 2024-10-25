@@ -58,12 +58,13 @@ const Header = () => {
           </div>
         </div>
         </div>
-        <div className="items-center flex ml-8 ">
+        <div className="items-center flex ml-8 relative">
           <div className=" ">
-            <div className=" flex  items-center  justify-around border-solid border rounded-xl w-40 h-10 m-4">
+            <div className=" flex group  items-center  justify-around border-solid border rounded-xl w-40 h-10 m-4">
               <FaRegUserCircle className="mr-0 w-16" />
               <p className="w-36 m-0 font-normal text-sm"> ورود / ثبت نام</p>
               <HiChevronDown className="text-slate-300 w-10 ml-1" />
+              <div className=" opacity-0 group-hover:opacity-100 transition ease-in-out duration-300 absolute top-14 w-40  z-40 text-center bg-gray-300 rounded-md ">login</div>
             </div>
           </div>
           <div>
