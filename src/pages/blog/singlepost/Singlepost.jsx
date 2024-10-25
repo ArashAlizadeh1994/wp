@@ -26,10 +26,10 @@ const Singlepost = () => {
 
   return (
     <div dir="rtl" className="flex flex-row gap-4 mx-auto">
-      <div className="bg-slate-200 w-4/5 rounded-lg">
+      <div className="bg-slate-100 w-4/5 rounded-lg">
         <Content title={title} body={body} />
       </div>
-      <div className="bg-gray-100 w-1/5 rounded-lg">
+      <div className=" w-1/5 rounded-lg">
         <PostLeftSidebar />
       </div>
     </div>

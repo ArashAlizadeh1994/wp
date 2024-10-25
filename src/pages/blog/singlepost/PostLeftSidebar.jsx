@@ -2,10 +2,10 @@ import React from "react";
 
 const PostLeftSidebar = () => {
   return (
-    <div className="flex-row text-sm font-yekanbakh-md">
+    <div className="flex-row text-2xl font-yekanbakh-md">
       <div className="bg-blue-100 rounded-lg p-1">
         <h3 className="font-black border-b">مطالب مرتبط</h3>
-        <ul className="pt-3 text-xs">
+        <ul className="pt-3">
           <li>
             <a href="#"></a>لینک
           </li>
