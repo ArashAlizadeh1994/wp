@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Yekanbakh-md";
+  src: url("./statics/Yekan-Bakh-FA-05-Medium.woff");
+}
+@font-face {
+  font-family: "Yekanbakh-light";
+  src: url(./statics/Yekan-Bakh-FA-04-Regular.woff);
+}
