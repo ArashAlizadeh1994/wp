@@ -4,12 +4,12 @@ import PostLeftSidebar from './PostLeftSidebar'
 
 const Singlepost = () => {
   return (
-    <div className='flex flex-row container mx-auto'>
-        <div className='bg-gray-400 w-1/3 '>
-            <PostLeftSidebar />
-        </div>
-        <div className='bg-slate-500 w-2/3'>
+    <div dir='rtl' className='flex flex-row gap-4 mx-auto'>
+        <div className='bg-slate-200 w-4/5 rounded-lg'>
             <Content />
+        </div>
+        <div className='bg-gray-300 w-1/5 rounded-lg'>
+            <PostLeftSidebar />
         </div>
     </div>
   )
