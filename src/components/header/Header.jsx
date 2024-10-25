@@ -64,7 +64,13 @@ const Header = () => {
               <FaRegUserCircle className="mr-0 w-16" />
               <p className="w-36 m-0 font-normal text-sm"> ورود / ثبت نام</p>
               <HiChevronDown className="text-slate-300 w-10 ml-1" />
-              <div className=" opacity-0 group-hover:opacity-100 transition ease-in-out duration-300 absolute top-14 w-40  z-40 text-center bg-gray-300 rounded-md ">login</div>
+              <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition ease-in-out duration-300 absolute top-14 w-40 p-3 justify-center  z-40 text-center bg-gray-200 rounded-md border-2 border-gray-400">
+                <label className="font-yekanbakh-md" >نام کاربری</label>
+                <input type="text" className="bg-gray-100 border-2 border-gray-400 w-11/12 outline-none rounded-lg p-1" />
+                <label className="font-yekanbakh-md" >رمز عبور</label>
+                <input type="password" className="bg-gray-100 w-11/12 border-2 border-gray-400 outline-none rounded-lg p-1" />
+                <button className="bg-blue-200 ring-1 ring-blue-400 rounded-md p-1 mt-2 w-1/2">ورود</button>
+                </div>
             </div>
           </div>
           <div>
